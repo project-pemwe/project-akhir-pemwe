@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/data.php';
-require_once __DIR__ . '/functions.php';
+require_once __DIR__ . '/function.php';
 
 // Syarat 6: Input dari $_GET dengan null coalescing (??) dan htmlspecialchars()
 $kataKunci = htmlspecialchars($_GET['cari'] ?? '', ENT_QUOTES, 'UTF-8');

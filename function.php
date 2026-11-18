@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 /**
  * Fungsi 1: Menghitung sisa uang saku efektif setelah dikurangi cadangan tabungan darurat.
- * Memenuhi syarat: Parameter bertipe, return float, dan parameter nilai default ($cadanganDarurat = 0.05).
+ * Memenuhi syarat: Parameter bertipe, return float, dan parameter nilai default 
  */
 function hitungSisaEfektif(float $jatahAnggaran, float $terpakai, float $cadanganDarurat = 0.05): float
 {
